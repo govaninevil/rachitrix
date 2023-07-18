@@ -45,7 +45,33 @@
     margin: 0 auto;
   }
 
-  .owl-carousel .owl-stage {
-    display: flex;
+  .slick-track {
+    display: flex !important;
     align-items: center;
+  }
+  
+  .client-slider .slick-arrow{
+    display: none !important;
+  }
+  
+  #rtl-slider{
+    transform: rotate(180deg);
+    margin-top: 50px;
+  }
+
+  #rtl-slider .slick-slide{
+    transform: rotate(180deg);
+  }
+
+  .our-service .title h1:before{
+    position: absolute;
+    content: 'Our Service';
+    width: 40%;
+    height: 100%;
+    font-size: 70px;
+    color: #00000010;
+    z-index: -1;
+    top: -23px;
+    left: 0px;
+    line-height: 69px;
   }
