@@ -23,7 +23,7 @@
 <body class="bg-white">
 
     <!-- header -->
-    <header class=" absolute t0p-0 left-0 w-full">
+    <header class=" absolute top-0 left-0 w-full z-[99]">
         <nav class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative" aria-label="Top ">
             <div class="w-full py-5 flex items-center justify-between ">
                 <div class="lg:flex items-center w-full justify-between">
@@ -65,11 +65,11 @@
 
 
     <!-- banner -->
-    <section class="banner">
-        <div class="container py-[207px] px-40 mx-auto">
-            <div class="inner-box flex items-center justify-between">
-                <div class="left text-white  w-[50%]">
-                    <h1 class="text-[102px] font-[700]">Digital
+    <section class="banner sm:h-[auto] h-[100vh]">
+        <div class="container xl:py-[207px] py-[150px] xl:px-40 px-30 mx-auto">
+            <div class="inner-box flex items-center justify-between xl:gap-[0px] sm:gap-[100px] sm:flex-row flex-col-reverse">
+                <div class="left text-white  xl:w-[50%] sm:w-[70%]">
+                    <h1 class="xl:text-[102px] lg:text-[80px] text-[60px] font-[700]">Digital
                         Marketing
                         for <span class="relative line">you</span></h1>
 
@@ -77,8 +77,8 @@
                         tempor invidunt
                         ut labore et dolore a aliquyam erat, sed diam voluptua. </p>
                 </div>
-                <div class="right">
-                    <img src="./image/banner-img.png" alt="">
+                <div class="right xl:w-[auto] w-[30%] sm:block hidden">
+                    <img src="./image/banner-img.png" alt="" class="xl:w-auto w-[80%]">
                 </div>
             </div>
         </div>
@@ -86,12 +86,12 @@
 
     <!-- digital reality -->
     <section class="reality">
-        <div class="container mx-auto my-[120px]">
+        <div class="container mx-auto sm:my-[120px] my-[60px]">
             <div class="title mb-8">
-                <h1 class="font-[700] text-[45px]">Transforming ideas<br>
+                <h1 class="font-[700] sm:text-[45px] text-[35px] sm:text-left text-center">Transforming ideas<br>
                     into <span class="text-[#E15AA0]">Digital Reality</span></h1>
             </div>
-            <div class="content text-[20px] space-y-6">
+            <div class="content sm:text-[20px] text-[16px] sm:text-left text-justify space-y-6">
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                     labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
                     et ea rebum.
@@ -101,7 +101,7 @@
                     Process Automation), LMS (Learning Management Solutions), onshore and offshore, with a goal to
                     become a trusted partner for clients and helping them to succeed online.
                 </p>
-                <div class="btn text-white px-[20px] py-[10px] rounded-[50px] bg-black inline-block text-[16px]">
+                <div class="btn text-white px-[20px] py-[10px] rounded-[50px] bg-black inline-block text-[16px] sm:mx-0 mx-auto">
                     <a href="#">Read More <i class="fa-solid fa-arrow-right-long ml-[10px]"></i></a>
                 </div>
             </div>
@@ -110,7 +110,7 @@
 
 
     <!-- client-slider -->
-    <section class="client-slider bg-black py-[60px] rounded-br-[150px]">
+    <section class="client-slider bg-black py-[60px] xl:rounded-br-[150px] rounded-br-[100px] ">
         <div class="container mx-auto">
             <div id="ltr-slider">
                 <div class="slide">
@@ -163,12 +163,12 @@
 
 
     <!-- Our Service -->
-    <section class="our-service py-[80px] my-[80px]">
+    <section class="our-service md:py-[80px] my-[80px]">
         <div class="container mx-auto">
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-[50px]">
                 <div class="left">
                     <div class="title">
-                        <h1 class="font-[700] text-[45px] relative">Our<br> Services</h1>
+                        <h1 class="font-[700] sm:text-[45px] text-[35px] relative">Our<br> Services</h1>
                     </div>
                     <div class="content mt-[20px]">
                         <p class="text-[16px] text-justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -182,7 +182,7 @@
                 </div>
                 <div class="right">
                     <div id="service-slider">
-                        <div class="main-box px-[30px]">
+                        <div class="main-box sm:px-[30px]">
                             <div class="box p-[30px] border border-black rounded-[30px]">
                                 <div class="title font-[800]">
                                     <h6 class="text-[20px]">Innovative</h6>
@@ -208,7 +208,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main-box px-[30px]">
+                        <div class="main-box sm:px-[30px]">
                             <div class="box p-[30px] border border-black rounded-[30px]">
                                 <div class="title font-[800]">
                                     <h6 class="text-[20px]">Innovative</h6>
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main-box px-[30px]">
+                        <div class="main-box sm:px-[30px]">
                             <div class="box p-[30px] border border-black rounded-[30px]">
                                 <div class="title font-[800]">
                                     <h6 class="text-[20px]">Innovative</h6>
@@ -260,7 +260,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main-box px-[30px]">
+                        <div class="main-box sm:px-[30px]">
                             <div class="box p-[30px] border border-black rounded-[30px]">
                                 <div class="title font-[800]">
                                     <h6 class="text-[20px]">Innovative</h6>
@@ -286,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main-box px-[30px]">
+                        <div class="main-box sm:px-[30px]">
                             <div class="box p-[30px] border border-black rounded-[30px]">
                                 <div class="title font-[800]">
                                     <h6 class="text-[20px]">Innovative</h6>
@@ -322,7 +322,7 @@
     <section class="our-work bg-[#D9D9D9]">
         <div class="container mx-auto px-[40px] py-[100px]">
             <div class="title mb-8">
-                <h1 class="font-[700] text-[45px] text-white text-center">Our Work</h1>
+                <h1 class="font-[700] sm:text-[45px] text-[35px] text-white text-center">Our Work</h1>
             </div>
             <div id="work-slider">
                 <div class="slide"><img src="image/our-work-1.png" alt=""></div>
@@ -338,12 +338,12 @@
     </section>
 
     <!-- recent news -->
-    <section class="recent-news  py-[80px] my-[80px]">
+    <section class="recent-news  md:py-[80px] my-[80px]">
         <div class="container mx-auto">
-            <div class="grid lg:grid-cols-3 grid-cols-1 gap-[70px]">
+            <div class="grid lg:grid-cols-3 grid-cols-1 sm:gap-[70px] gap-y-[20px]">
                 <div class="left ">
                     <div class="title">
-                        <h1 class="font-[700] text-[45px] relative">RECENT<br>NEWS</h1>
+                        <h1 class="font-[700] sm:text-[45px] text-[35px] relative">RECENT<br>NEWS</h1>
                     </div>
                     <div class="content mt-[20px]">
                         <p class="text-[16px] text-justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -502,10 +502,10 @@
     </section>
 
     <!-- testimonials -->
-    <section class="testimonils lg:h-[60vh]">
+    <section class="testimonils xl:h-[60vh] md:h-[100vh]">
         <div class="container mx-auto">
             <div class="title mb-[40px]">
-                <h1 class="font-[700] text-[45px] relative">TESTIMONIALs</h1>
+                <h1 class="font-[700] sm:text-[45px] text-[35px] relative">TESTIMONIALs</h1>
             </div>
             <div class="tabbing">
                 <div id="parentVerticalTab">
@@ -700,45 +700,45 @@
 
 
     <!-- contact-from -->
-    <section class="contact-from lg:mt-40 mt-[70px] ">
+    <section class="contact-from lg:mt-40 md:mt-[70px] mt-[80px]">
         <div class="container mx-auto">
             <div
-                class="inner-box-from lg:grid flex  grid-cols-2 gap-[50px] mx-auto items-center bg-[#000] text-[#fff] p-[80px] rounded-[30px]">
+                class="inner-box-from grid lg:grid-cols-2 grid-cols-1 xl:gap-[50px] gap-[60px] mx-auto items-center bg-[#000] text-[#fff] xl:p-[80px] p-[50px] rounded-[30px]">
                 <div class="from-img">
                     <div class="title">
-                        <h2 class="lg:text-[90px] sm:text-[40px] text-[30px] font-[900] mr-[40px]">GET
+                        <h2 class="xl:text-[90px] sm:text-[60px] text-[30px] font-[900] mr-[40px]">GET
                             <sapn class="lg:block inline-block">IN TOUCH</sapn>
                         </h2>
                     </div>
                     <div class="content">
-                        <p class="text-[24px] w-[80%]">We would love to hear from you. Feel free to reach out to us for
+                        <p class="xl:text-[24px] sm:text-[18px] text-[15px] sm:w-[80%] ">We would love to hear from you. Feel free to reach out to us for
                             your next project and we will be available at your earliest convenience. </p>
                     </div>
                     <div class="social-media">
-                        <div class="follow flex gap-[50px] mt-20">
+                        <div class="follow flex xl:gap-[50px] gap-[25px] sm:mt-20 mt-[15px]">
                             <a href="#" class="p-[20px] rounded-[50px] bg-[#fff] relative"><i
-                                    class="fa-brands fa-linkedin-in text-[30px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
+                                    class="fa-brands fa-linkedin-in xl:text-[30px] text-[20px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
 
                             <a href="#" class="p-[20px] rounded-[50px] bg-[#fff] relative"><i
-                                    class="fa-brands fa-instagram text-[30px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
+                                    class="fa-brands fa-instagram xl:text-[30px] text-[20px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
 
                             <a href="#" class="p-[20px] rounded-[50px] bg-[#fff] relative"><i
-                                    class="fa-brands fa-facebook-f text-[30px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
+                                    class="fa-brands fa-facebook-f xl:text-[30px] text-[20px] text-[#000] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 md:gap-[70px] gap-[20px]">
-                    <div class="name">
+                <div class="grid grid-cols-2 xl:gap-[70px] gap-[30px]">
+                    <div class="name sm:col-span-1 col-span-2">
                         <input type="text" name="Frist Name" id="frist-name" class="" placeholder="Frist Name" />
                     </div>
-                    <div class="second">
+                    <div class="second sm:col-span-1 col-span-2">
                         <input type="text" name="Frist Name" id="frist-name" class="" placeholder="Last Name" />
                     </div>
-                    <div class="email">
+                    <div class="email sm:col-span-1 col-span-2">
                         <input type="text" name="username" id="username" class=""
                             placeholder="Business Email Address" />
                     </div>
-                    <div class="number">
+                    <div class="number sm:col-span-1 col-span-2">
                         <input type="text" name="number" id="number" class="" placeholder="Mobile Number" />
                     </div>
                     <div class="email col-span-2">
@@ -767,7 +767,7 @@
     <footer class="bg-[#000] text-white lg:mt-64 mt-[70px] relative z-[1] overflow-hidden">
         <div class="container mx-auto">
             <div
-                class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 sm:gap-[150px] gap-[40px] py-20 footer-box sm:text-left text-center">
+                class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 sm:gap-[150px] gap-[40px] py-20 footer-box text-left">
                 <div class="logo-box">
                     <div class="logo mb-[25px]">
                         <a href="#"><img src="image/rachitrix-logo.png" alt=""></a>
@@ -776,7 +776,6 @@
                         <p>A-304, Mondeal Heights, SG Hwy Service Rd, near Wide Angle Cinema, Ramdev Nagar, Ahmedabad,
                             Gujarat 380015</p>
                     </div>
-
                 </div>
                 <div class="service">
                     <h4 class="text-[16px] text-white mb-[15px]">Quick Links</h4>

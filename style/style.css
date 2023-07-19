@@ -4,6 +4,7 @@
 .mobile header {
   height: 100vh;
   background-color: #000;
+  z-index: 99;
 }
 .mobile .menu-box span:first-child {
   transform: rotate(45deg);
@@ -122,6 +123,7 @@
   left: 0px;
   line-height: 69px;
 }
+
 input {
   border-bottom: 1px solid #9f9f9f;
   display: block;
@@ -163,4 +165,76 @@ footer::before{
   background-size: auto;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+
+
+/* service page */
+.service-page .title h1::before{
+  position: absolute;
+  content: "WHAT WE DO";
+  width: 100%;
+  height: 100%;
+  font-size: 120px;
+  color: #ffffff10;
+  top: 0px;
+  left: 0px;
+  line-height: 69px;
+  text-align: center;
+}
+.service-page::before{
+  content: '';
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  background-image: url('../image/service-page-pattern.png');
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+  input::placeholder{
+    font-size: 18px !important;
+  }
+  footer::before{
+    top: -190px;
+    left: -80px;
+  }
+  footer::after{
+    bottom: -200px;
+  }
+  .resp-vtabs .resp-tabs-list li {
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-service .title h1:before, .recent-news .title h1:before, .testimonils .title h1:before{
+    font-size: 45px !important;
+    line-height: 60px;
+  }
+  .banner{
+    position: relative;
+  }
+  .banner .container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateY(-50%)translateX(-50%);
+
+  }
 }
