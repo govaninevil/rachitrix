@@ -197,8 +197,19 @@ footer::before{
 
 
 
-
-
+/* about us */
+.About-Us .title h1:before {
+  position: absolute;
+  content: "About Us";
+  width: 40%;
+  height: 100%;
+  font-size: 70px;
+  color: #00000010;
+  z-index: -1;
+  top: -23px;
+  left: 0px;
+  line-height: 49px;
+}
 
 
 
