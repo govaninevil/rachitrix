@@ -211,6 +211,40 @@ footer::before{
   line-height: 49px;
 }
 
+.our-mission .title h1:before {
+  position: absolute;
+  content: "Our Mission";
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  color: #00000010;
+  z-index: -1;
+  top: -23px;
+  left: 0px;
+  line-height: 49px;
+}
+
+.our-team .title h1:before {
+  position: absolute;
+  content: "OUR TEAM";
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  color: #00000010;
+  z-index: -1;
+  top: -23px;
+  left: 0px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.service-details-list li:before {
+  content: '✓';
+  color: #4DB14D;
+  margin-right: 10px;
+}
+
+/*  */
 
 
 
