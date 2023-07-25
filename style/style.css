@@ -247,7 +247,6 @@ footer::before{
 /*  */
 
 
-
 @media only screen and (max-width: 1280px) {
   input::placeholder{
     font-size: 18px !important;
@@ -262,8 +261,6 @@ footer::before{
   .resp-vtabs .resp-tabs-list li {
     margin-right: 10px !important;
   }
-}
-@media only screen and (max-width: 1280px) {
   .container{
     padding-left: 20px;
     padding-right: 20px;
@@ -281,5 +278,37 @@ footer::before{
     left:50%;
     transform: translateY(-50%)translateX(-50%);
 
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .service-page .title h1::before{
+    font-size: 70px;
+    top: -10px;
+  }
+  .service-page::before {
+    background-size: 25%;
+  }
+  .About-Us .title h1:before{
+    width: 100%;
+  }
+  .our-service .title h1:before{
+    width: 100%;
+  }
+  .our-service .title h1:before, .recent-news .title h1:before, .testimonils .title h1:before {
+    font-size: 70px !important;
+    line-height: 60px;
+}
+}
+@media only screen and (max-width: 680px) {
+  .service-page .title h1::before{
+    font-size: 50px;
+  }
+  .service-page::before{
+    top: 80px;
+  } 
+}
+@media only screen and (max-width: 460px) {
+  .About-Us .title h1:before , .our-mission .title h1:before, .our-service .title h1:before, .our-team .title h1:before{
+    font-size: 50px !important;
   }
 }
